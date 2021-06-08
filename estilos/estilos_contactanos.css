@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  
+.header {
+    grid-area: header;
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+}
+
+li {
+    float: left;
+}
+
+li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+  .contenedor {
+      position:relative;
+      
+      border-radius: 15px ;
+     
+      margin-left: 5%;
+      margin-top: 50px;
+      height:500px;
+      width:90%;
+     padding-top: 15px;
+    }
+  
+    .div1{
+      margin-top: 10px;
+  
+      text-align: center;
+    }
+  
+    .div2{
+      margin-top: 55px;
+  
+      
+    }
+    ::placeholder{
+      text-align: center;
+    }
+  
+  
+  
+    input[type="text"]{
+        
+    
+      width: 30%;
+      height: 40px;
+      
+  
+   
+    }
+  
+    input[type="text"]:hover{
+      background-color: #D3D3D3;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+   
+  
+    input.dos[type="text"]{
+        
+      
+      width: 61%;
+      height: 40px;
+    }
+  
+    input[type="email"]{
+        
+     
+      width: 30%;
+      height: 40px;
+    }
+    input[type="email"]:hover{
+      background-color: #D3D3D3;
+      border: 2px solid black;
+    border-radius: 4px;
+    }
+  
+    textarea{
+    
+  
+      width: 61%;
+      height: 100px;
+    }
+  
+    textarea:hover{
+      background-color: #D3D3D3;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+  
+     input[type="submit"]{
+      
+      
+      width: 61%;
+      height: 40px;
+    }
+  
+    input[type="submit"]:hover {
+      background-color: #90EE90;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+  
+   
+  
+  

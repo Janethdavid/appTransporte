@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+    position:relative;
+    background-color: rgba(255, 0, 0, 0.03);
+    border-radius: 15px ;
+    border: 2px solid #708090;
+    margin-left: 10%;
+    margin-top: 50px;
+    height:500px;
+    width:80%;
+   padding-top: 15px;
+  }
+
+  .div1{
+    position: absolute;
+    margin-top: 10px;
+
+    text-align: center;
+  }
+
+  .div2{
+    position: absolute;
+    margin-top: 55px;
+    width: 60%;
+    height: 250px;
+    margin-left: 20%;
+
+    
+  }
+  ::placeholder{
+    text-align: center;
+  }
+
+
+
+  input[type="text"]{
+      
+  
+    width: 30%;
+    height: 40px;
+    
+
+ 
+  }
+
+  input[type="text"]:hover{
+    background-color: #D3D3D3;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+ 
+
+  input.dos[type="text"]{
+      
+    
+    width: 61%;
+    height: 40px;
+  }
+
+  input[type="email"]{
+      
+   
+    width: 30%;
+    height: 40px;
+  }
+  input[type="email"]:hover{
+    background-color: #D3D3D3;
+    border: 2px solid black;
+  border-radius: 4px;
+  }
+
+  textarea{
+  
+
+    width: 61%;
+    height: 100px;
+  }
+
+  textarea:hover{
+    background-color: #D3D3D3;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+   input[type="submit"]{
+    
+    background-color: #4169E1;
+    width: 61%;
+    height: 40px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #90EE90;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+ 
+
+/*responsive */
+
+@media screen and (max-width: 360px ) {
+
+  .contenedor{
+height: 650px;
+
+  }
+  
+  input [type="submit"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+
+  input.dos[type="text"]{
+      
+    margin-top: 0px;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+
+  input[type="email"] {
+    margin-top: 15px;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+ 
+  textarea{
+  
+    margin-left: 5%;
+    width: 90%;
+    height: 100px;
+  }
+
+
+}
+
+@media screen and (max-width: 420px) {
+  .contenedor{
+    height: 650px;
+    
+      }
+  
+  input [type="submit"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+
+  input.dos[type="text"]{
+      
+    margin-top: 0px;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+
+  input[type="email"] {
+    margin-top: 15px;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+ 
+  textarea{
+  
+    margin-left: 5%;
+    width: 90%;
+    height: 100px;
+  }
+
+
+}

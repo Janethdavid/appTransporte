@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.contenedor{
+  position: relative;
+margin-top: 5px;
+margin-left: 1%;
+margin-bottom: 5px;
+
+width: 98%;
+height: 800px;
+
+
+}
+
+img.logo{
+margin-left: 30%;
+
+
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 40px;
+  margin-left: 25%;
+  margin-top: 25px;
+}
+
+input[type="text"]:hover {
+  background-color: #d3d3d3;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+input[type="password"] {
+  width: 50%;
+  height: 40px;
+  margin-left: 25%;
+  margin-top: 25px;
+}
+input[type="password"]:hover {
+  background-color: #d3d3d3;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4169E1;
+  width: 50%;
+  height: 40px;
+  margin-left: 25%;
+  border-radius: 4px ;
+  text-align: center;
+  margin-top: 30px;
+}
+
+input[type="submit"]:hover {
+  background-color: #90ee90;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.secundario{
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.03);
+  border-radius: 15px;
+  margin-left: 30%;
+  margin-top: 50px;
+  height: 650px;
+  width: 40%;
+  padding-top: 15px;
+  border: 2px solid #708090;
+  
+}
+
+::placeholder {
+  text-align: center;
+}
+
+
+ 
+
+
+
+/*responsive */
+
+@media screen and (max-width: 360px ) {
+  
+  input [type=submit] {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    text-align: center;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+
+  input[type="password"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+  img.logo{
+    width: 60%;
+    margin-top: 0;
+    margin-left: 20%;
+  }
+  .secundario{
+    padding-top: 150px;
+    margin-left: 12.5%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-left: 2%;
+    height: 600px;
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 420px ) {
+  
+  input [type=submit] {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    text-align: center;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+
+  input[type="password"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+  img.logo{
+    width: 60%;
+    margin-top: 0;
+    margin-left: 20%;
+  }
+  .secundario{
+    padding-top: 150px;
+    margin-left: 10%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+   
+    padding-left: 2%;
+    height: 600px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px ) {
+  
+  input [type=submit] {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    text-align: center;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+
+  input[type="password"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+  }
+  img.logo{
+    width: 60%;
+    margin-top: 0;
+    margin-left: 20%;
+  }
+  .secundario{
+    padding-top: 70px;
+    margin-left: 12.5%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+   
+    padding-left: 2%;
+    height: 500px;
+    width: 75%;
+  }
+}
+  @media screen and (max-width: 1024px ) {
+  
+    input [type=submit] {
+      width: 70%;
+      height: 40px;
+      margin-left: 15%;
+      text-align: center;
+    }
+  
+    input[type="text"] {
+      width: 90%;
+      height: 40px;
+      margin-left: 5%;
+    }
+  
+    input[type="password"] {
+      width: 90%;
+      height: 40px;
+      margin-left: 5%;
+    }
+    img.logo{
+      width: 60%;
+      margin-top: 0;
+      margin-left: 20%;
+    }
+    .secundario{
+      padding-top: 70px;
+      margin-left: 12.5%;
+      margin-top: 25px;
+      margin-bottom: 15px;
+     
+      padding-left: 2%;
+      height: 500px;
+      width: 75%;
+    }
+}
+
